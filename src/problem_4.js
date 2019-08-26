@@ -28,13 +28,9 @@ const checkBooking = (arrivals, departures, k) => {
   return true;
 };
 
+export default checkBooking;
+
 /*
   Time Complexity: O(n Log n)
   Auxiliary Space: O(n)
  */
-
-const arrivals = [1, 3, 5];
-const departures = [2, 6, 10];
-const k = 1;
-
-console.log(checkBooking(arrivals, departures, k));
