@@ -22,6 +22,17 @@ describe('Problem', function() {
 
       expect(grid).to.eql(rotated);
     });
+
+    it('should rotated with same expected when k is 2', function() {
+      const grid = [[0, 16, 255], [8, 128, 32], [0, 0, 0]];
+      const k = 2;
+
+      const expected = [[0, 0, 0], [32, 128, 8], [255, 16, 0]];
+
+      const rotated = rotate(grid, k);
+
+      expect(expected).to.eql(rotated);
+    });
   });
 
   context('Problem 4: Hotel Reservation', function() {

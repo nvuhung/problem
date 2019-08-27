@@ -29,8 +29,3 @@ const checkBooking = (arrivals, departures, k) => {
 };
 
 export default checkBooking;
-
-/*
-  Time Complexity: O(n Log n)
-  Auxiliary Space: O(n)
- */

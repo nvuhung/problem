@@ -14,8 +14,3 @@ const rotate = (grid, k) => {
 };
 
 export default rotate;
-
-/*
-  Time Complexity: O(n^2)
-  Space Complexity: O(1)
- */
